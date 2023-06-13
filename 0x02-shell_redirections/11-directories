@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -print | wc -l
+find . -minedepth 1  -type d -not -path '*/\.' -print | wc -l
