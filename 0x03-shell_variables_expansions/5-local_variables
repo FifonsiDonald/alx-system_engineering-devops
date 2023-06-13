@@ -1,2 +1,2 @@
 #!/bin/bash
-(set -o possix ; set) && env && declare -F
+(set -o posix ; set) && env && declare -F
