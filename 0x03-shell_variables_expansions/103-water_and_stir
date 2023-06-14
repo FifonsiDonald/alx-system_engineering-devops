@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($bestchol#(($stir#$WATER) + $STIR)))
+echo "$((16#$(echo -n "$WATER" | tr -d -c '0-9a-fA-F') + 16#$(echo -n "$STIR" | tr -d -c '0-9a-fA-F')))"
