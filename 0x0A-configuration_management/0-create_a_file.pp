@@ -1,3 +1,5 @@
+# Filename: 0-create_a_file.pp
+
 file { '/tmp/schoool':
 	ensure => file,
 	mode => '0744',
